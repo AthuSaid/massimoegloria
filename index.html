@@ -81,7 +81,10 @@
                             </nav>
                             <!-- Main Menu End-->
                         </div>
-                        
+
+						<!-- Nav language -->
+						<div id="google_translate_element" style="margin: 10px;"></div>
+						
                         <!-- Nav Search -->
                         <div class="nav-search">
                             <button class="far fa-search"></button>
@@ -872,6 +875,17 @@
     <script src="assets/js/aos.js"></script>
     <!-- Custom script -->
     <script src="assets/js/script.js"></script>
-
+	<!-- language script -->
+	<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({
+      pageLanguage: 'en', // The default language of your website
+      includedLanguages: 'en,it,de', // The languages you want to offer (English, Italian, German)
+      layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+    }, 'google_translate_element');
+  }
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	
 </body>
 </html>
